@@ -21,6 +21,7 @@ import BestWeeklyEleven from '@screens/BestWeeklyEleven/';
 import Offer from '@screens/Offer/';
 import LiveCoupon from '@screens/LiveCoupon/';
 import Coupons from '@screens/Coupons/';
+import MenuAgriculture from '@screens/MenuAgriculture/';
 
 import GoalAnalyticsResult from '@components/AnalyticsScreens/GoalAnalyticsResult/GoalAnalyticsResult';
 import CoachAnalyticsResult from '@components/AnalyticsScreens/CoachAnalyticsResult/CoachAnalyticsResult';
@@ -83,6 +84,7 @@ const AppNavigation = createStackNavigator(
     Offer: { screen: Offer },
     LiveCoupon: { screen: LiveCoupon },
     Coupons: { screen: Coupons },
+    MenuAgriculture: {screen: MenuAgriculture},
   },
   {
     index: 0,
